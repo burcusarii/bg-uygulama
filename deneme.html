@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        margin: 0;
+      }
+
+      .bg-spec {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+        background-size: cover;
+      }
+
+      .page1 {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(255, 204, 204, 0.3),
+            rgba(255, 102, 102, 0.3)
+          ),
+          url("page1.jpg");
+        height: 100vh;
+      }
+      .page2 {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(255, 204, 204, 0.3),
+            rgba(255, 102, 102, 0.3)
+          ),
+          url("page2.jpg");
+        height: 70vh;
+      }
+      .page3 {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(255, 204, 204, 0.3),
+            rgba(255, 102, 102, 0.3)
+          ),
+          url("page3.jpg");
+        height: 70vh;
+      }
+
+      h2 {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        font-size: 40px;
+        background-color: brown;
+        color: azure;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        padding: 10px;
+      }
+
+      p {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        background-color: aliceblue;
+      }
+
+      .buton {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        font-size: 20px;
+        padding: 5px;
+        background-color: brown;
+        border-radius: 5px;
+        border: 1px #fff solid;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- page1 -->
+    <div class="bg-spec page1">
+      <h2>Lorem, ipsum.</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus,
+        ducimus.
+      </p>
+      <a href="https://www.google.com" class="buton">Lorem</a>
+    </div>
+    <!-- page1 -->
+
+    <!-- page2 -->
+
+    <div class="bg-spec page2">
+      <h2>Lorem, ipsum.</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus,
+        ducimus.
+      </p>
+    </div>
+    <!-- page2 -->
+
+    <!-- page3 -->
+
+    <div class="bg-spec page3">
+      <h2>Lorem, ipsum.</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus,
+        ducimus.
+      </p>
+    </div>
+    <!-- page3 -->
+  </body>
+</html>
